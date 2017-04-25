@@ -32,14 +32,14 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 100px;
+  padding: 10px;
 }
 
 /*
  * Cover
  */
 .cover {
-  padding: 50px 30px;
+  padding: 30px 20px;
 }
 
 h1 {
@@ -49,16 +49,15 @@ h1 {
 }
 
 .lead {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 /*
  * Affix and center
  */
 @media (min-width: 768px) {
-  /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    vertical-align: left;
   }
   /* Handle the widths */
   .cover-container {
@@ -70,4 +69,11 @@ h1 {
   .cover-container {
     width: 700px;
   }
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 2em;
 }

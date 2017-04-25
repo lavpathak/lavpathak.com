@@ -2,13 +2,28 @@
 <html>
 	<head>
 		<title>Lav Pathak</title>
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-		<link href="assets/css/main.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+		<link href="assets/css/main.css" rel="stylesheet" />
+		<link href="assets/css/overlay.css" rel="stylesheet" />
 
+		<script type="text/javascript">
+			/* Open */
+			function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+			}
+
+			/* Close */
+			function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+			}
+		</script>
 	</head>
 	<body>
+		<div>
+			<span class="glyphicon glyphicon-menu-hamburger menu" aria-hidden="true" onclick="openNav()"></span>
+		</div>
 		<div class="site-wrapper">
 			<div class="cover-container">
 				<div class="inner cover">
@@ -21,5 +36,22 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- The overlay -->
+		<div id="myNav" class="overlay">
+
+		  <!-- Button to close the overlay navigation -->
+		  <span class="glyphicon glyphicon-remove closebtn" onclick="closeNav()"></span>
+
+		  <!-- Overlay content -->
+		  <div class="overlay-content">
+		    <a href="#">About</a>
+		    <a href="#">Services</a>
+		    <a href="#">Clients</a>
+		    <a href="#">Contact</a>
+		  </div>
+
+		</div>
+
 	</body>
 </html>
