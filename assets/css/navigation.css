@@ -15,17 +15,23 @@
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.overlay a:hover {
+    color: #333;
+    background-color: #fff;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 32px;
     color: #fff;
     display: block;
     transition: 0.3s;
 }
+
 
 .overlay .closebtn {
     position: absolute;
@@ -43,4 +49,17 @@
     top: 15px;
     right: 35px;
   }
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+}
+
+.menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }

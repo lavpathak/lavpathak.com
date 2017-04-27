@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="about">
+
+    <div class="menu" aria-hidden = "true" onclick="openNav()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <h1 class="about__title">Lav Pathak</h1>
+
+
+    <div id="myNav" class="overlay">
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+		  <!-- Overlay content -->
+		  <div class="overlay-content">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
+		  </div>
+
+		</div>
+
+    <div class="about__content">
+        {{ content }}
+    </div>
+</div>
