@@ -21,7 +21,7 @@ Following is the list of all the blogs and websites I have been learning from:
 * [Joel On Software](https://www.joelonsoftware.com/) by Joel Spolsky
 * [Paul Hammant's Blog](https://paulhammant.com/) by Paul Hammant
 * [Trunk Based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
-* [Addy's Meduum](https://medium.com/@addyosmani) by Addy Osmani
+* [Addy's Medium](https://medium.com/@addyosmani) by Addy Osmani
 * [Dan's Medium](https://medium.com/@dan_abramov) by Dan Abramov
 * [Netflix Blog](http://techblog.netflix.com/) by Netflix
 * [Twitter Blog](https://blog.twitter.com/engineering) by twitter
