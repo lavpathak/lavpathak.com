@@ -220,6 +220,13 @@ blockquote {
 			border-bottom: 1px dashed $color-black;
 		}
 	}
+
+	&__footer {
+		img {
+			height: 30px;
+			width: 30px;
+		}
+	}
 }
 
 .about {
