@@ -197,10 +197,12 @@ blockquote {
 			}
 		}
 		code {
-			padding: 3px;
-			font-size: 0.9em;
+			margin: 10px;
+			margin-bottom: 15px;
+			padding: 10px;
+			line-height: 1.5;
 			border-radius: 3px;
-			background: $color-grey;
+			background: $color-black;
 		}
 		.highlight {
 			margin: 10px;
