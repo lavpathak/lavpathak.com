@@ -70,12 +70,13 @@ My .travis.yml script looks like following
 language: ruby
 rvm:
   - 2.1
-install: gem install jekyll -v 3.4.3 && gem install s3_website
+install: gem install jekyll -v 3.4.3 && gem install s3_website && gem install jekyll-sitemap
 script: jekyll build
 after_success: s3_website push
+
 ```
 
-As you notice, it sets up my ruby environment first and then installs jekyll and another gem called s3_website.
+As you notice, it sets up my ruby environment first and then installs jekyll, jekyll sitemap and s3_website gems.
 After that it executes ```jekyll build``` and then pushes the artifact to S3 bucket. s3_website needs another file called s3_website.yml. Which looks like following
 ```
 s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
