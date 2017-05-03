@@ -70,7 +70,9 @@ My .travis.yml script looks like following
 language: ruby
 rvm:
   - 2.1
-install: gem install jekyll -v 3.4.3 && gem install s3_website && gem install jekyll-sitemap
+install: gem install jekyll -v 3.4.3
+            && gem install s3_website
+            && gem install jekyll-sitemap
 script: jekyll build
 after_success: s3_website push
 
