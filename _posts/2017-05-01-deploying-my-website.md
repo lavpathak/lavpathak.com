@@ -18,11 +18,13 @@ Jekyll has following system prerequisites
 
 
 To get started install Jekyll.
+
 ```
 $ gem install jekyll bundler
 ```
 
 Now create new website.
+
 ```
 $ jekyll new mywebsite
 $ cd mywebsite
@@ -36,6 +38,7 @@ theme then visit <a href="http://jekyllthemes.org/" target="_blank">http://jekyl
 That should get you started. Fork any of those layouts from github and customize it according to your needs.
 
 To preview your changes before deployment try
+
 ```
 $ jekyll serve
 ```
@@ -47,6 +50,7 @@ under Permissions as shown in the image below.
 ![img]({{ site.url }}/assets/img/deploying_my_website_img_1.png)
 
 Add following lines in bucket policy. It allows get access on all objects inside the given bucket and make them public.
+
 ```
 {
     "Version": "2012-10-17",
@@ -66,6 +70,7 @@ Travis-ci needs .travis.yml file in your repository. More info on how to get sta
 [https://docs.travis-ci.com/user/getting-started/](https://docs.travis-ci.com/user/getting-started/).
 
 My .travis.yml script looks like following
+
 ```
 language: ruby
 rvm:
@@ -77,6 +82,7 @@ after_success: s3_website push
 
 As you notice, it sets up my ruby environment first and then installs jekyll and another gem called s3_website.
 After that it executes ```jekyll build``` and then pushes the artifact to S3 bucket. s3_website needs another file called s3_website.yml. Which looks like following
+
 ```
 s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['S3_SECRET_KEY'] %>
