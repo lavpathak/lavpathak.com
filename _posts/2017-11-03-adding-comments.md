@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding disques comments to blog posts
+title: Adding disqus comments to blog posts
 ---
 
 Sorry for the long delay on this. Last couple of months have been very busy on personal front. Finally got chance to add comments section to my blog posts.
