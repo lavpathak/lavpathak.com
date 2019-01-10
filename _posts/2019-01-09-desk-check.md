@@ -29,6 +29,6 @@ How does Desk Check help?
 * It will help non-dev team members get closer to the code 
 * As the team will discuss Acceptance criteria over these desk checks it will promote [ubiquitos language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 
-Hope this post was helpful. In the next post, I will explain another agile practice called Kickoffs that I really find useful as well.
+Hope this post was helpful. In the next post, I will explain another agile practice called Kickoffs that I find really useful as well.
 
 -- Lav
