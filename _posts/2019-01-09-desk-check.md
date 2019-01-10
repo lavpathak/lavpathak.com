@@ -3,7 +3,7 @@ layout: post
 title: Desk Checks - Defect Prevention Technique
 ---
 
-I have worked on various agile times following various different agile techniques. One of the most effective techniques that I have seen to prevent defects is Desk Check. It is a practice used for verification when the developer believes the user story development is done and its ready for testing. The idea here is to catch defects before it reaches the testing phase and minimizes feedback loop.
+I have worked on various agile teams following quite a few different techniques. One of the most effective techniques that I have seen to prevent defects is Desk Check. It is a practice used for verification when the developer believes the user story development is done and its ready for testing. The idea here is to catch defects before it reaches the testing phase and minimizes feedback loop.
 
 Participants:
 Developer, BA, QA, Other interested parties (Tech lead, Product Owner etc.) 
