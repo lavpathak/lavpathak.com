@@ -3,4 +3,9 @@ rvm:
   - 2.5
 install: gem install jekyll && gem install s3_website && gem install sass -v 3.4.23 && gem install jekyll-sitemap -v 1.4.0
 script: bundle install && bundle exec jekyll build
-after_success: s3_website push
+deploy:
+  provider: s3
+  access_key_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
+  skip_cleanup: true
+  bucket: lavpathak.com
