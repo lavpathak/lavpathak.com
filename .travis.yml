@@ -9,3 +9,4 @@ deploy:
   secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
   skip_cleanup: true
   bucket: lavpathak.com
+  region: us-west-1
